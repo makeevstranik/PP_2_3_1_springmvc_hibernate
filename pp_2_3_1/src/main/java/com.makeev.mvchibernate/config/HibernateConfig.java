@@ -51,7 +51,7 @@ public class HibernateConfig {
         return transactionManager;
     }
 
-    @Bean // todo delete it
+    @Bean 
     public JpaVendorAdapter getJpaVendorAdapter() {
         JpaVendorAdapter adapter = new HibernateJpaVendorAdapter();
         return adapter;
